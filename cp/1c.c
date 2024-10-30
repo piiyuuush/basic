@@ -7,6 +7,8 @@ int main (){
 
     float principal, rate, period, si;
 
+    clrscr();
+    
     printf("\nEnter Principal amount : ");
     scanf("%f",&principal);
 

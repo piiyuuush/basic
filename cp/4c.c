@@ -5,17 +5,23 @@
 
 int main (){
 
-    int number, factorial;
+  int number, factorial;
 
-    printf("\nEnter a number : ");
-    scanf("%d",&number);
-    factorial = number;
-    while(number!=1){
-      number--;
-      factorial *= number;
-    }
+  clrscr();
 
-    printf("Factorial is %d",factorial);
-    getch();
-    return 0;
+  printf("\nEnter a number : ");
+  scanf("%d",&number);
+
+  factorial = number;
+
+  while(number!=1){
+    number--;
+    factorial *= number;
+  }
+
+  printf("Factorial is %d",factorial);
+ 
+  getch();
+ 
+  return 0;
 }

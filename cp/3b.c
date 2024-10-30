@@ -7,18 +7,23 @@ int main (){
 
     int number, sum = 0, remainder, numcopy;
 
+    clrscr();
+
     printf("\nEnter the number : ");
     scanf("%d",&number);
+
     numcopy = number;
-    while(number != 0){
+    
+    for(number; number!=0; number/=10){
 
         remainder = number%10;
-        sum += remainder; 
-        number /= 10; 
+        sum += remainder;
 
     }
 
-    printf ("The reverse of %d is %d", numcopy, sum);
+    printf ("The sum  of digits of %d is %d", numcopy, sum);
+    
     getch();
+    
     return 0;
 }

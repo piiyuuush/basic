@@ -7,15 +7,16 @@ int main (){
 
     int a, b, result;
 
-    printf("\nEnter first number : ");
-    scanf("%d",&a);
+    clrscr();
 
-    printf("\nEnter second number : ");
-    scanf("%d",&b);
+    printf("\nEnter two numbers : ");
+    scanf("%d %d",&a, &b);
 
     result = a + b;
+
     printf("\nThe addition of %d and %d is %d", a, b, result);
 
     getch();
+
     return 0;
 }

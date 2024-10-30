@@ -7,19 +7,19 @@ int main (){
 
     int a , b, c, greatest;
 
-    printf("\nEnter first number : ");
-    scanf("%d",&a);
+    clrscr();
 
-    printf("\nEnter second number : ");
-    scanf("%d",&b);
+    printf("\nEnter three numbers for comparison : ");
+    scanf("%d %d %d",&a, &b, &c);
 
-    printf("\nEnter second number : ");
-    scanf("%d",&c);
-
-    greatest =(a>b)?((a>c)?a:c):((b>c)?b:c);
+    greatest = 
+            (a>b)?
+            ((a>c)?a:c):
+            ((b>c)?b:c);
 
     printf("\nThe greatest number is %d",greatest);
 
     getch();
+    
     return 0;
 }

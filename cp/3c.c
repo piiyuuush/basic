@@ -7,7 +7,9 @@ int main (){
     int a, b, answer;
     char opp;
 
-    printf("\nEnter the your equation (ex. a + b) : ");
+    clrscr();
+
+    printf("\nEnter your equation (ex. a + b) : ");
     scanf("%d %c %d",&a, &opp, &b);
    
     switch (opp)
@@ -15,31 +17,33 @@ int main (){
     case '+':
                 answer = a + b;
                 printf("\nThe addition of %d and %d is %d",a ,b ,answer);
-        break;
+                break;
     
     case '-':
                 answer = a - b;
                 printf("\nThe addition of %d and %d is %d",a ,b ,answer);
-        break;
+                break;
     
     case '*':
                 answer = a * b;
                 printf("\nThe addition of %d and %d is %d",a ,b ,answer);
-        break;
+                break;
     
     case '/':
                 if(b!=0){
                 answer = a / b;
                 printf("\nThe addition of %d and %d is %d",a ,b ,answer);
-                } else {
+                }else {
                     printf("\nInfinity");
                 }
-        break;
+                break;
     
     default:
                 printf("Invalid operator");
-        break;
+                break;
     }
+
     getch();
+
     return 0;
 }

@@ -6,10 +6,14 @@
 int main (){
 
     int number, reversed = 0, remainder, numcopy;
+    
+    clrscr();
 
     printf("\nEnter the number : ");
     scanf("%d",&number);
+
     numcopy = number;
+
     while(number != 0){
 
         remainder = number%10;
@@ -19,6 +23,8 @@ int main (){
     }
 
     printf ("The reverse of %d is %d", numcopy, reversed);
+
     getch();
+    
     return 0;
 }

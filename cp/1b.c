@@ -1,21 +1,22 @@
 #include<stdio.h>
 #include<conio.h>
 
-// This program will find avg of two numbers
+// This program will find avg of numbers
 
 int main (){
 
-    float result, a, b;
+    float result, a, b, c;
 
-    printf("\nEnter first value : ");
-    scanf("%f",&a);
+    clrscr();
 
-    printf("\nEnter second value : ");
-    scanf("%f",&b);
+    printf("\nEnter 3 sample values : ");
+    scanf("%f %f %f", &a, &b, &c);
+    
+    result = (a + b + c)/3;
 
-    result = (a + b)/2;
-    printf("\nThe average of %f and %f is %f", a, b, result);
+    printf("\nThe average is %f", result);
 
     getch();
+    
     return 0;
 }

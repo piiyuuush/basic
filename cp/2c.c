@@ -7,6 +7,8 @@ int main (){
 
     int number;
 
+    clrscr();
+    
     printf("\nEnter the number : ");
     scanf("%d",&number);
 

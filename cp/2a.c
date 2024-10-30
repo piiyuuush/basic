@@ -7,17 +7,18 @@ int main (){
 
     int a , b;
 
-    printf("\nEnter first number : ");
-    scanf("%d",&a);
-
-    printf("\nEnter second number : ");
-    scanf("%d",&b);
+    clrscr();
+    
+    printf("\nEnter two numbers for comparision : ");
+    scanf("%d %d",&a, &b);
+    printf("\n");
 
     if(a>b){
         printf("%d is greater than %d",a ,b);
-    }
-    else {
-        printf("%d is greater than %d",b ,a);
+    }else if(a == b){
+        printf("%d and %d are equal",a ,b);
+    }else{
+        printf("%d is greater than %d",b, a);
     }
 
     getch();

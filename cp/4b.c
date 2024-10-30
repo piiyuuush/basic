@@ -7,19 +7,22 @@ int main (){
 
     int a = 0, b = 1,fibo, number;
 
-    printf("\nEnter how many numbers you want : ");
+    clrscr();
+
+    printf("\nEnter how many numbers you want in the series : ");
     scanf("%d",&number);
 
-    printf("\nThe series is : %d %d", a, b);
+    printf("\nThe series is : %d, %d", a, b);
 
-    while(number !=0){
+    while(number !=2){
         fibo = a + b;
         a = b;
         b = fibo;
         number--;
-        printf(" %d",fibo);
+        printf(", %d",fibo);
     }
 
     getch();
+
     return 0;
 }

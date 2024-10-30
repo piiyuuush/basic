@@ -6,13 +6,17 @@
 int main (){
     
     int number;
-
-    printf("\nEnter the number : ");
+    
+    clrscr();
+    
+    printf("\nEnter a number : ");
     scanf("%d",&number);
 
     for(int i = 1; i<=number; i++){
-        printf("\nNumber %d", i);
+        printf("\n\tNumber %d", i);
     }
+
     getch();
+
     return 0;
 }
