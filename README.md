@@ -1,7 +1,3 @@
-Here's a sample README for your GitHub repository:
-
----
-
 # BE FE Semester 1 - Basic C Programs
 
 Welcome to the **BE FE Semester 1 - Basic C Programs** repository! This repository contains foundational C programming examples aimed at helping first-year engineering students (Bachelor of Engineering, First Year - Semester 1) understand key concepts in C programming. 
