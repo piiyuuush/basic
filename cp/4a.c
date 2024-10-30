@@ -5,14 +5,14 @@
 
 int main (){
     
-    int number;
+    int number, i;
     
     clrscr();
     
     printf("\nEnter a number : ");
     scanf("%d",&number);
 
-    for(int i = 1; i<=number; i++){
+    for(i = 1; i<=number; i++){
         printf("\n\tNumber %d", i);
     }
 

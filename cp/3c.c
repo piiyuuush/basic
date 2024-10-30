@@ -21,27 +21,27 @@ int main (){
     
     case '-':
                 answer = a - b;
-                printf("\nThe addition of %d and %d is %d",a ,b ,answer);
+                printf("\nThe subtraction of %d and %d is %d",a ,b ,answer);
                 break;
-    
+
     case '*':
                 answer = a * b;
-                printf("\nThe addition of %d and %d is %d",a ,b ,answer);
+                printf("\nThe multiplication of %d and %d is %d",a ,b ,answer);
                 break;
-    
+
     case '/':
                 if(b!=0){
                 answer = a / b;
-                printf("\nThe addition of %d and %d is %d",a ,b ,answer);
+                printf("\nThe division of %d and %d is %d",a ,b ,answer);
                 }else {
                     printf("\nInfinity");
                 }
                 break;
-    
+
     default:
                 printf("Invalid operator");
                 break;
-    }
+                }
 
     getch();
 
