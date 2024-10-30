@@ -58,7 +58,3 @@ Contributions to improve the code examples or add additional content are welcome
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-This README will give users a clear overview of the repository content and how to get started with it. Let me know if you'd like to add or adjust any sections!
