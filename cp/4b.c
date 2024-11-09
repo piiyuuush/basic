@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
 // This program will print fibonacci series till n numbers
 
 int main (){
@@ -9,7 +8,7 @@ int main (){
 
     clrscr();
 
-    printf("\nEnter how many numbers you want in the series : ");
+    printf("\nEnter how many terms you want in the series : ");
     scanf("%d",&number);
 
     printf("\nThe series is : %d, %d", a, b);

@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
 // This program will find avg of numbers
 
 int main (){
@@ -9,7 +8,7 @@ int main (){
 
     clrscr();
 
-    printf("\nEnter 3 sample values : ");
+    printf("\nEnter 3 sample values to find their average : ");
     scanf("%f %f %f", &a, &b, &c);
     
     result = (a + b + c)/3;

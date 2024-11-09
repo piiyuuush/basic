@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
 // This program will find greatest of three numbers using ternary operator
 
 int main (){

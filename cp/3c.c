@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
-
 // This is calculator made using swtich case
+
 int main (){
 
     int a, b, answer;

@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
 // This program will reverse the digits of given number
 
 int main (){
@@ -9,7 +8,7 @@ int main (){
     
     clrscr();
 
-    printf("\nEnter the number : ");
+    printf("\nEnter the number to find it's reversed form : ");
     scanf("%d",&number);
 
     numcopy = number;
@@ -22,7 +21,7 @@ int main (){
 
     }
 
-    printf ("The reverse of %d is %d", numcopy, reversed);
+    printf ("The reversed form of %d is %d", numcopy, reversed);
 
     getch();
     

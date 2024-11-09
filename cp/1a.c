@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
 // This program will find additon of two numbers
 
 int main (){
@@ -9,7 +8,7 @@ int main (){
 
     clrscr();
 
-    printf("\nEnter two numbers : ");
+    printf("\nEnter two numbers for addition : ");
     scanf("%d %d",&a, &b);
 
     result = a + b;

@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
 // This program will check if the number is odd or even
 
 int main (){
@@ -9,7 +8,7 @@ int main (){
 
     clrscr();
     
-    printf("\nEnter the number : ");
+    printf("\nEnter the number to check odd/even : ");
     scanf("%d",&number);
 
     if(number%2==0){

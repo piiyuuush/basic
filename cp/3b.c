@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
 // This program will find the sum of digits of given number
 
 int main (){
@@ -9,7 +8,7 @@ int main (){
 
     clrscr();
 
-    printf("\nEnter the number : ");
+    printf("\nEnter the number to find it's digit's sum : ");
     scanf("%d",&number);
 
     numcopy = number;
