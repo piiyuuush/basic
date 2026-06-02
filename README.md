@@ -1,6 +1,6 @@
-# BE FE Semester 1 - Basic C Programs
+# Computer Engg FE Semester 1 - Basic C Programs
 
-Welcome to the **BE FE Semester 1 - Basic C Programs** repository! This repository contains foundational C programming examples aimed at helping first-year engineering students (Bachelor of Engineering, First Year - Semester 1) understand key concepts in C programming. 
+Welcome to the **Computer Engg FE Semester 1 - Basic C Programs** repository! This repository contains foundational C programming examples aimed at helping first-year engineering students (Bachelor of Engineering, First Year - Semester 1) understand key concepts in C programming. 
 
 ## Overview
 
